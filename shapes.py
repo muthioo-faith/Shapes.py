@@ -21,18 +21,19 @@ class Square:
         A=(self.A*self.A)
         return A
     def perimeter(self):
-        p=4*self.a
+        p=4*self.A
         return p
 class Rectangle:
     def __init__(self,w,l):
         self.w=w
         self.l=l
+    def area(self):    
         a=(self.w*self.l)
         return a
     def per(self):
         p=2*(self.w+self.l) 
         return p   
-class Sphere():
+class Sphere:
     def __init__(self,r):
         self.r=r
         A=4*math.pi*(self.r**r)
